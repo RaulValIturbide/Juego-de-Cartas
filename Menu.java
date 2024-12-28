@@ -247,7 +247,7 @@ public class Menu {
         String[] aFrase = {fraseInicio, fraseIntermedia, fraseFinal, escenarioInicial, escenarioIntermedio, escenarioFinal};
         return aFrase;
     }
-
+    //Este metodo pretende dar a conocer los resultados de la fase de ataque 
     public static void escenaAtaque(Carta cartaAtacante, Carta cartaDefensora) {
         System.out.println("##################################");
         System.out.println("");
